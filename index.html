@@ -2,20 +2,192 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agency</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Abhijeet Dubey</title>
+
+  <!-- Open Graph-->
+  <meta property="og:title" content="Abhijeet Dubey" />
+  <meta property="og:description" content="Software Developer" />
+  <meta property="og:url" content="https://abhijeetdubey.github.io/" />
+  <meta property="og:site_name" content="Abhijeet Dubey" />
+  <meta name="author" content="Abhijeet Dubey" />
+  <meta name="description" content="Software Developer with a passion for backend development and cloud technologies." />
 </head>
 
 <body>
-  
-  <footer>
-    <p>Create. Develop. Design.</p>
-  </footer>
-</body>
+  <!-- Navigation Menu-->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+      <li class="logo">
+        <a id="logo-container" href="#intro" class="brand-logo grey-blue-text">
+          <img src="male-avatar-boy-face-man-user-9-svgrepo-com.svg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+      <li><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+      <li><a href="#experience" class="waves-effect waves-dark teal-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+      <li><a href="#projects" class="waves-effect waves-dark teal-text"><i class="mdi-av-my-library-books small"></i><span>Projects</span></a></li>
+      <li><a href="#skills" class="waves-effect waves-dark teal-text"><i class="mdi-action-assessment small"></i><span>Skills</span></a></li>
+      <li><a href="#education" class="waves-effect waves-dark teal-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+      <li><a href="#contact" class="waves-effect waves-dark teal-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+      <li><a href="resume.pdf" target="_blank" class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a></li>
+    </ul>
+  </nav>
 
+  <main>
+    <!-- Intro Section -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Abhijeet Dubey.</span></h2>
+              <h5>A <span class="typing"></span></h5>
+              <h5>Full-stack developer specializing in cloud-native applications and distributed systems.</h5>
+            </div>
+            <div class="social">
+              <a href="https://linkedin.com/in/abhijeet-dubey" target="_blank">
+                <button class="icon-btn linkedin"><i class="fa fa-linkedin"></i></button>
+              </a>
+              <a href="https://github.com/abhijeetdubey109" target="_blank">
+                <button class="icon-btn github"><i class="fa fa-github"></i></button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <blockquote>
+          <h2>Software Developer passionate about building scalable systems</h2>
+        </blockquote>
+        <p>
+          Full-stack developer with experience in building distributed systems and cloud-native applications. 
+          Proven track record of delivering high-performance solutions using modern technologies.
+        </p>
+        <p>
+          <strong>Core Competencies:</strong>
+          <ul>
+            <li>Backend Development (Java, Spring Boot, Node.js)</li>
+            <li>Cloud Platforms (AWS, Azure)</li>
+            <li>Database Systems (PostgreSQL, MongoDB)</li>
+            <li>DevOps (Docker, Kubernetes, CI/CD)</li>
+          </ul>
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <img src="tech corp.jpg" class="responsive-img" alt="TechCorp logo">
+              </div>
+              <div class="col s12 m10">
+                <span class="card-title teal-text"> Intern - TechCorp</span>
+                <div class="role">June 2024 - Present</div>
+                <ul>
+                  <li>Led development of microservices architecture handling 10M+ daily requests</li>
+                  <li>Implemented CI/CD pipeline reducing deployment time by 40%</li>
+                  <li>Technologies: Java, Spring Boot, AWS, Kubernetes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-light">
+                <img src="/assets/img/cloud-system.jpg" alt="Cloud System">
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Distributed Task Scheduler</span>
+                <p>Scalable task scheduling system built with Go and Redis</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/abhijeetdubey1209/task-scheduler" class="teal-text">View Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text">Technologies</h4>
+            <div class="row text-center">
+              <div class="col s4 m2"><i class="fa-brands fa-java fa-2x"></i><br>Java</div>
+              <div class="col s4 m2"><i class="fa-brands fa-aws fa-2x"></i><br>AWS</div>
+              <div class="col s4 m2"><i class="fa-brands fa-docker fa-2x"></i><br>Docker</div>
+              <div class="col s4 m2"><i class="fa-brands fa-python fa-2x"></i><br>Python</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title teal-text">B.Tech CSE(AI & ML) - KIET Group of Institutions</span>
+            <p>2023-2027 | GPA: 8.09</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p><a href="mailto:abhijeet.2327cseml10@kiet.edu" class="teal-text"><i class="fa fa-envelope"></i> abhijeet.2327cseml10@kiet.edu</a></p>
+        <p><a href="tel:+919454034019" class="teal-text"><i class="fa fa-phone"></i> +91 9454034019</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script>
+    new Typed('.typing', {
+      strings: ["Backend Developer", "Cloud Architect", "Problem Solver"],
+      typeSpeed: 50,
+      loop: true
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+</body>
 </html>
